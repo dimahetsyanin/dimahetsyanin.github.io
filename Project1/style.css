@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light|Srisakdi');
+
+header{
+  color:rgb(12, 122, 45);
+  text-align: center;
+  background: linear-gradient(to right, #dbfcfa, #7e85bc);
+  height: 200px;
+  margin: -8px;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+h1{
+  font-family: 'Srisakdi', cursive;
+  text-align: left;
+  margin-left: 20px;
+  font-size: 60px;
+}
+body {
+  background: linear-gradient(#dbfcfa, #7e85bc);
+}
+
+a.button{
+  font-size: 18pt;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+  padding: .8em 1em calc(.8em + 3px);
+  border-radius: 10px;
+  background: rgb(64,199,129);
+  box-shadow: 0 -6px rgb(53,167,110) inset;
+  transition: 0.2s;
+  margin: 30px;
+}
+a.button:hover { background: rgb(53, 167, 110); }
+a.button:active {
+  background: rgb(33,147,90);
+  box-shadow: 0 3px rgb(33,147,90) inset;
+}
+
+form{
+  font-size: 20pt;
+  text-align: center;
+}
+
+table{
+  font-size: 30pt;
+  text-align: center;
+}

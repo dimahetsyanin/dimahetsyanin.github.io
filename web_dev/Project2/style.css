@@ -34,3 +34,9 @@ ul li ul li{
 ul li:hover ul li{
   display: block;
 }
+
+/*#frame1{
+  margin: auto;
+  padding: 0;
+  border:25px;
+}*\

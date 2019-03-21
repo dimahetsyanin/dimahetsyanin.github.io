@@ -10,42 +10,45 @@
 <body>
   <nav>
     <ul>
-      <li><a>Home</a></li>
+      <li><a href="void.html" target="iframe">Home</a></li>
       <li><a>Form</a>
         <ul>
-          <li><a href="get.html">GET</a></li>
-          <li><a href="post.html">POST</a></li>
-          <li><a href="file_upload.html">File Upload</a></li>
+          <li><a href="get.html" target="iframe">GET</a></li>
+          <li><a href="post.html" target="iframe">POST</a></li>
+          <li><a href="file_upload.html" target="iframe">File Upload</a></li>
         </ul>
       </li>
       <li><a>Cookies</a>
         <ul>
-          <li><a href="php/enabled_disabled.php">Enabled/Disabled</a></li>
-          <li><a href="php/create_retrieve.php">Create/Retrieve</a></li>
-          <li><a href="modify_delete.html">Modify/Delete</a></li>
+          <li><a href="php/enabled_disabled.php" target="iframe">Enabled/Disabled</a></li>
+          <li><a href="php/create_retrieve.php" target="iframe">Create/Retrieve</a></li>
+          <li><a href="modify_delete.html" target="iframe">Modify/Delete</a></li>
         </ul>
       </li>
         <li><a>Sessions</a>
           <ul>
-            <li><a href="php/start.php">Start</a></li>
-            <li><a href="get_modify.html">Get/Modify</a></li>
-            <li><a href="php/destroy.php">Destroy</a></li>
+            <li><a href="php/start.php" target="iframe">Start</a></li>
+            <li><a href="get_modify.html" target="iframe">Get/Modify</a></li>
+            <li><a href="php/destroy.php" target="iframe">Destroy</a></li>
           </ul>
         </li>
       <li><a>Date/Time</a>
         <ul>
-          <li><a href="php/today_is.php">Today is</a></li>
-          <li><a href="php/timezone.php">Timezone</a></li>
-          <li><a href="php/timestamp.php">Timestamp</a></li>
+          <li><a href="php/today_is.php" target="iframe">Today is</a></li>
+          <li><a href="php/timezone.php" target="iframe">Timezone</a></li>
+          <li><a href="php/timestamp.php" target="iframe">Timestamp</a></li>
         </ul>
       </li>
       <li><a>Database</a>
         <ul>
-          <li><a href="reserved.html">(reserved)</a></li>
+          <li><a href="reserved.html" target="iframe">(reserved)</a></li>
         </ul>
       </li>
-      <li><a href="php/php_info.php">PHPinfo</a></li>
+      <li><a href="php/php_info.php" target="iframe">PHPinfo</a></li>
     </ul>
   </nav>
+  <div>
+    <iframe id="frame1" height="300px" width="100%" src="void.html" name="iframe" style="border:2px solid white;"></iframe>
+  </div>
 </body>
 </html>

@@ -1,3 +1,3 @@
-Course “Web Development and Web Design”
+﻿Course “Web Development and Web Design”
 # Project 3
-Author: Sviatoslav Darmohrai
+Author: Hetsyanin Dmytro
